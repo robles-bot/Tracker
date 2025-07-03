@@ -9,6 +9,10 @@
 </head>
 <body>
 
+<p>
+Notes obtained from: <a href="https://squidfunk.github.io/mkdocs-material/">Materials for MkDocs</a>
+</p>
+
 <div id="Installation"><h1 id="Installation" class="header"><a href="#Installation">Installation</a></h1></div>
 <ul>
 <li>
@@ -31,32 +35,32 @@ Can be install using git:
 <li>
 cloning the repo:
 
+<ul>
 <li>
-```bash
-  git clone <a href="https://github.com/squidfunk/mkdocs-material.git">https://github.com/squidfunk/mkdocs-material.git</a>
-  ```
+git clone <a href="https://github.com/squidfunk/mkdocs-material.git">https://github.com/squidfunk/mkdocs-material.git</a>
 
+</ul>
 <li>
-Install the themes and its dependencies
+Install the themes and its dependencies:
 
+<ul>
 <li>
-```bash
-  pip install -e mkdocs-material
-  ```
+pip install -e mkdocs-material
 
+</ul>
 </ul>
 </ul>
 <div id="Creating site"><h1 id="Creating site" class="header"><a href="#Creating site">Creating site</a></h1></div>
 <ul>
 <li>
-Go to the directory where you want your project to be located and enter
+Go to the directory where you want your project to be located and enter:
+
+<ul>
+<li>
+mkdocs new .
 
 </ul>
-<p>
-```bash
-mkdocs new .
-```
-</p>
+</ul>
 <div id="Creating site-Configuration"><h2 id="Configuration" class="header"><a href="#Creating site-Configuration">Configuration</a></h2></div>
 <ul>
 <li>
@@ -72,40 +76,72 @@ They also provide templates found <a href="https://squidfunk.github.io/mkdocs-ma
 <div id="Creating site-Previewing"><h2 id="Previewing" class="header"><a href="#Creating site-Previewing">Previewing</a></h2></div>
 <ul>
 <li>
-Run
+Run:
+
+<ul>
+<li>
+mkdocs serve
 
 </ul>
+</ul>
 <p>
-```bash
-mkdocs serve
-```
 to run the server after saving
 </p>
 <ul>
 <li>
-Run
+Run:
+
+<ul>
+<li>
+mkdocs serve --dirtyreload
 
 </ul>
+</ul>
 <p>
-```bash
-mkdocs serve --dirtyreload
-```
 to see only the current page (assuming you have a lot of files that need to be rebuilt)
 </p>
 
 <div id="Creating site-Building Site"><h2 id="Building Site" class="header"><a href="#Creating site-Building Site">Building Site</a></h2></div>
 <ul>
 <li>
-After editing you can build a static version of your site from your markdown files,
+After editing you can build a static version of your site from your markdown files:
+
+<ul>
+<li>
+mkdocs build
 
 </ul>
-<p>
-```bash
-mkdocs build
-```
-</p>
-
+</ul>
 <div id="Publishing"><h1 id="Publishing" class="header"><a href="#Publishing">Publishing</a></h1></div>
+<ul>
+<li>
+Suggests hosting code on GitHub
+
+<li>
+Suggests using GitHub Actions to automate the deployment of the project documentation <span id="Publishing-This is what I need to learn now"></span><strong id="This is what I need to learn now">This is what I need to learn now</strong>
+
+<li>
+Create a new GitHub Actions and copy <a href="https://squidfunk.github.io/mkdocs-material/publishing-your-site/#with-github-actions">this</a>:
+
+<ul>
+<li>
+when a new commit is pushed to either master or main, the site is built and deployed
+
+</ul>
+<li>
+Using MkDocs:
+
+<ul>
+<li>
+From within the directory containing mkdocs.yml run:
+
+<ul>
+<li>
+mkdocs gh-deploy --force
+
+</ul>
+</ul>
+</ul>
 
 </body>
 </html>
