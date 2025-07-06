@@ -1,5 +1,6 @@
 site_name: Tracker Docs
-
+site_url: https://username.github.io/Tracker/
+use_directory_urls: true
 
 theme:
   name: material
