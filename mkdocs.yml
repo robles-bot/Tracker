@@ -1,17 +1,30 @@
-site_name: My Docs
+site_name: Tracker Docs
 
 
 theme:
   name: material
 
+nav:
+  - Home: index.md
+  - Dumps:
+    - "Dump - mkdocs.md"
+  - Projects:
+      - Coffea Ntuple→Hist: "Project - Coffea Framework Ntuple to Hist.md"
+      - FF Ntuple→Hist: "Project - FF Framework Ntuple to Hist.md"
+      - Event Loop Ntuple→Hist: "Project - Event Loop Ntuple to Hist.md"
+      - Parsing Script: "Project - Parsing Script.md"
+
 markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-
   - pymdownx.tasklist:
       custom_checkbox: true
-nav:
-  - Home: index.md
+      clickable_checkbox: true
+  - pymdownx.emoji
+  - pymdownx.details
