@@ -13,16 +13,16 @@ TODO:
     - [ ] Should be able to use markdown syntax as shown [[https://squidfunk.github.io/mkdocs-material/reference/diagrams/#using-sequence-diagrams|here]]
 
 # Dumps
-[[Dump - mkdocs]]
+[Dump - mkdocs](Dump - mkdocs)
 
 # Projects
-[[Project - Coffea Framework Ntuple to Hist]]
+[Project - Coffea Framework Ntuple to Hist](Project - Coffea Framework Ntuple to Hist)
 
-[[Project - FF Framework Ntuple to Hist]]
+[Project - FF Framework Ntuple to Hist](Project - FF Framework Ntuple to Hist)
 
-[[Project - Event Loop Ntuple to Hist]]
+[Project - Event Loop Ntuple to Hist](Project - Event Loop Ntuple to Hist)
 
-[[Project - Parsing Script]]
+[Project - Parsing Script](Project - Parsing Script)
 
 # Ideas
 

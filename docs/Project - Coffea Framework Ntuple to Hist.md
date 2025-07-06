@@ -1,4 +1,4 @@
-# Current
+# Coffea Framework Ntuple to Hist
 - Based on [[https://docs.google.com/document/d/1pg_Ws8pkJAnU29qfHEiqUENpD7sTrM2y0UX5ISvCjyI/edit?tab=t.80l00hjza16|this]], the only site that need to have their iteration of this job updated is NERSC 
   
 ## Dump

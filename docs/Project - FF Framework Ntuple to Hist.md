@@ -1,4 +1,4 @@
-# Current
+# FF Framework Ntuple to Hist
 - Need to set this job at all sites:
   - [X] UC:
     - [X] Schedule the job
