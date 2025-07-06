@@ -14,4 +14,4 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
 nav:
-  - Home: docs/index.md
+  - Home: index.md
