@@ -1,4 +1,4 @@
-Notes obtained from: [[https://squidfunk.github.io/mkdocs-material/|Materials for MkDocs]]
+Notes obtained from: [Materials for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 
 # Installation
 - Can be installed using pip:
@@ -23,9 +23,9 @@ Notes obtained from: [[https://squidfunk.github.io/mkdocs-material/|Materials fo
 ```
 
 ## Configuration
-- [[https://squidfunk.github.io/mkdocs-material/creating-your-site/#minimal-configuration|Minimal Configuration]]
-- [[https://squidfunk.github.io/mkdocs-material/creating-your-site/#advanced-configuration|Advances Configuration]]
-- They also provide templates found [[https://squidfunk.github.io/mkdocs-material/creating-your-site/#templates|here]]
+- [Minimal Configuration](https://squidfunk.github.io/mkdocs-material/creating-your-site/#minimal-configuration)
+- [Advances Configuration](https://squidfunk.github.io/mkdocs-material/creating-your-site/#advanced-configuration)
+- They also provide templates found [here](https://squidfunk.github.io/mkdocs-material/creating-your-site/#templates)
 
 ## Previewing
 - Run:
@@ -42,7 +42,7 @@ to see only the current page (assuming you have a lot of files that need to be r
 # Publishing
 - Suggests hosting code on GitHub
 - Suggests using GitHub Actions to automate the deployment of the project documentation *This is what I need to learn now*
-- Create a new GitHub Actions and copy [[https://squidfunk.github.io/mkdocs-material/publishing-your-site/#with-github-actions|this]]:
+- Create a new GitHub Actions and copy [this](https://squidfunk.github.io/mkdocs-material/publishing-your-site/#with-github-actions):
   - when a new commit is pushed to either master or main, the site is built and deployed
 - Using MkDocs:
   - From within the directory containing mkdocs.yml run:
