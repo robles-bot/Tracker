@@ -1,6 +1,7 @@
 # Current
 
 TODO:
+
 - [ ] Log into SLAC after maintenance and work on parsing scripts
 - [ ] Check the crontab file at SLAC
 - [ ] Continue to work on the BNL Parsing Scripts
@@ -24,6 +25,7 @@ TODO:
 
 
 DONE:
+
 - [X] *Need to make a slide for the scrubbing; due 5/30*
 - [X] Store copies of the crontab/scrontab files used at the AFs in GitHub
 - [X] Need to check the two coffea.root files found in my home directory at UC-AF:
