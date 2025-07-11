@@ -9,7 +9,11 @@ TODO:
 
 ## SLAC
 
-- [ ] Fix the parsing scripts
+- [X] Fix the parsing scripts
+- [ ] Figure out what is causing this error:
+```bash
+OSError: [Errno 121] Remote I/O error
+```
 - [ ] Set up the SLAC FF
 
 
