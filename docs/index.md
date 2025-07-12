@@ -15,10 +15,16 @@ TODO:
 OSError: [Errno 121] Remote I/O error
 ```
 - [ ] Set up the SLAC FF
+- [ ] Get to the bottom of this on PDB, insert break points and see why the error is being thrown
+- [ ] Check the paths and make sure it is still available
+- [ ] If there is a file that is causing the issue, wrap it using a try-except and have it give an error message and give me the name of the file that is missing/faulty
+- [ ] Keep the dashboard populated and don't move until it is guaranteed that there won't be issue
 
 
 ## UC
 
+- [ ] Parse Ntuple -> Hist log files and compare both FF and Coffea
+- [X] Compare Coffea, FF, and EventLoop histogram
 
 ## NERSC
 
