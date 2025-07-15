@@ -2,6 +2,11 @@
 
 TODO:
 
+## General
+- [ ] Learn how to use PDB
+- [ ] Implement new methods of parsing and cases as nets for the parsing scripts
+- [ ] Check when Ilija will be back so I can prepare the migration over to the new parsing scripts
+
 ## BNL
 
 - [ ] Schedule EVNT Parsing scripts
@@ -10,15 +15,17 @@ TODO:
 ## SLAC
 
 - [X] Fix the parsing scripts
-- [ ] Figure out what is causing this error:
+- [X] Figure out what is causing this error:
 ```bash
 OSError: [Errno 121] Remote I/O error
 ```
+ChatGPT is suggesting this is a hardware or system-level issue and not a bug in the code.
+I figured it out and it was really the Rucio parsing script that was holding all other jobs behind because of how I have the parsing scripts scheduled.
 - [ ] Set up the SLAC FF
-- [ ] Get to the bottom of this on PDB, insert break points and see why the error is being thrown
-- [ ] Check the paths and make sure it is still available
-- [ ] If there is a file that is causing the issue, wrap it using a try-except and have it give an error message and give me the name of the file that is missing/faulty
-- [ ] Keep the dashboard populated and don't move until it is guaranteed that there won't be issue
+- [X] Get to the bottom of this on PDB, insert break points and see why the error is being thrown
+- [X] Check the paths and make sure it is still available
+- [X] If there is a file that is causing the issue, wrap it using a try-except and have it give an error message and give me the name of the file that is missing/faulty
+- [X] Keep the dashboard populated and don't move until it is guaranteed that there won't be issue
 
 
 ## UC
@@ -36,7 +43,7 @@ OSError: [Errno 121] Remote I/O error
 # Dumps
 [Dump - mkdocs](Dump - mkdocs.md)
 
-[Dump - Site](Dump - Site.md)
+[Dump - Meetings](Dump - Meetings.md)
 
 # Projects
 [Project - Coffea Framework Ntuple to Hist](Project - Coffea Framework Ntuple to Hist.md)
