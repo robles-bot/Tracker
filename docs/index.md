@@ -12,7 +12,7 @@ TODO:
 ## BNL
 
 - [X] Schedule EVNT Parsing scripts
-- [ ] Schedule TRUTH3 Parsing scripts:
+- [.] Schedule TRUTH3 Parsing scripts:
   - [ ] Copy the usual files to the respective directories:
     - [ ] Native
     - [ ] EL9
@@ -27,16 +27,15 @@ TODO:
     - [ ] Native int
     - [ ] EL9 int 
     - [ ] CentOS7 int
-  - [ ] Create the "current_list.txt" file for the respective jobs:
-    - [ ] Native
-    - [ ] EL9
-    - [ ] CentOS7
-    - [ ] Native int
-    - [ ] EL9 int 
-    - [ ] CentOS7 int
+  - [X] Create the "current_list.txt" file for the respective jobs:
+    - [X] Native
+    - [X] EL9
+    - [X] CentOS7
+    - [X] Native int
+    - [X] EL9 int 
+    - [X] CentOS7 int
 - [ ] Update the FF code so that it matches what is being used at SLAC
 - [ ] Fix the parsing script used by the coffea job
-- [ ] Fix the parsing scripts in general
 
 ## SLAC
 
