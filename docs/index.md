@@ -12,21 +12,21 @@ TODO:
 ## BNL
 
 - [X] Schedule EVNT Parsing scripts
-- [.] Schedule TRUTH3 Parsing scripts:
-  - [ ] Copy the usual files to the respective directories:
-    - [ ] Native
-    - [ ] EL9
-    - [ ] CentOS7
-    - [ ] Native int
-    - [ ] EL9 int 
-    - [ ] CentOS7 int
-  - [ ] Write the main script for the respective jobs:
-    - [ ] Native
-    - [ ] EL9
-    - [ ] CentOS7
-    - [ ] Native int
-    - [ ] EL9 int 
-    - [ ] CentOS7 int
+- [X] Schedule TRUTH3 Parsing scripts:
+  - [X] Copy the usual files to the respective directories:
+    - [X] Native
+    - [X] EL9
+    - [X] CentOS7
+    - [X] Native int
+    - [X] EL9 int 
+    - [X] CentOS7 int
+  - [X] Write the main script for the respective jobs:
+    - [X] Native
+    - [X] EL9
+    - [X] CentOS7
+    - [X] Native int
+    - [X] EL9 int 
+    - [X] CentOS7 int
   - [X] Create the "current_list.txt" file for the respective jobs:
     - [X] Native
     - [X] EL9
@@ -76,7 +76,7 @@ TODO:
 
 # Ideas
 
-
+- Schedule the parsing script at BNL: /atlasgpfs01/usatlas/data/jroblesgo/parsing_jobs/
 
 DONE:
 
