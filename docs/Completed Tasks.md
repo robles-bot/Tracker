@@ -46,3 +46,29 @@ I figured it out and it was really the Rucio parsing script that was holding all
 
 - [X] Compare Coffea, FF, and EventLoop histogram
 
+
+
+- [X] Schedule EVNT Parsing scripts
+- [X] Schedule TRUTH3 Parsing scripts:
+  - [X] Copy the usual files to the respective directories:
+    - [X] Native
+    - [X] EL9
+    - [X] CentOS7
+    - [X] Native int
+    - [X] EL9 int 
+    - [X] CentOS7 int
+  - [X] Write the main script for the respective jobs:
+    - [X] Native
+    - [X] EL9
+    - [X] CentOS7
+    - [X] Native int
+    - [X] EL9 int 
+    - [X] CentOS7 int
+  - [X] Create the "current_list.txt" file for the respective jobs:
+    - [X] Native
+    - [X] EL9
+    - [X] CentOS7
+    - [X] Native int
+    - [X] EL9 int 
+    - [X] CentOS7 int
+

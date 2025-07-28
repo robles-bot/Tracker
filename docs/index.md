@@ -8,39 +8,20 @@ TODO:
 - [ ] Implement new methods of parsing and cases as nets for the parsing scripts
 - [ ] Check when Ilija will be back so I can prepare the migration over to the new parsing scripts
 - [ ] Look into version control
+- [ ] Have two jobs for FF and Coffea running; each with different number of cores/threads:
+  - [ ] Test coffea with a single node and x amount of threads
 
 ## BNL
 
-- [X] Schedule EVNT Parsing scripts
-- [X] Schedule TRUTH3 Parsing scripts:
-  - [X] Copy the usual files to the respective directories:
-    - [X] Native
-    - [X] EL9
-    - [X] CentOS7
-    - [X] Native int
-    - [X] EL9 int 
-    - [X] CentOS7 int
-  - [X] Write the main script for the respective jobs:
-    - [X] Native
-    - [X] EL9
-    - [X] CentOS7
-    - [X] Native int
-    - [X] EL9 int 
-    - [X] CentOS7 int
-  - [X] Create the "current_list.txt" file for the respective jobs:
-    - [X] Native
-    - [X] EL9
-    - [X] CentOS7
-    - [X] Native int
-    - [X] EL9 int 
-    - [X] CentOS7 int
 - [ ] Update the FF code so that it matches what is being used at SLAC
 - [ ] Fix the parsing script used by the coffea job
+- [ ] update the parsing script to include the changes Ilija suggested; I just need to make sure the json docs contain "token" and "kind"; send them one by one
 
 ## SLAC
 
 - [ ] Fix the parsing script used by the coffea job
 - [X] Fix the script that runs the parsing scripts; ssh iana "commands"
+- [ ] Figure out what is causing the EVNT-EL9 Error
 
 ## UC
 
