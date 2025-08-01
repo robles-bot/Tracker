@@ -3,49 +3,54 @@
 TODO:
 
 ## General
+
+- [ ] Discuss the idea of changing the parsing scripts to the new method
+
+- [ ] Go over SLAC EVNT Log File with Mike
+- [ ] Think about the structure of the Coffea parsing script (the merge request will help when parsing; will just need to find that specific block of text and parse; otherwise I would just be missing the block of text all the time):
+  - [ ] Giordon will update the script via a merge request, see example below
+   ```bash
+   {'bytesread': 6392230, 'columns': ['ph_select_tightID_NOSYS', 'ph_pt_NOSYS', 'ph_isEM_NOSYS'], 'entries': 191297, 'processtime': 1.8725175857543945, 'chunks': 2}
+   ```
 - [ ] Learn how to use PDB
 - [ ] Learn how to use Pyinstrument
-- [ ] Implement new methods of parsing and cases as nets for the parsing scripts
-- [ ] Check when Ilija will be back so I can prepare the migration over to the new parsing scripts
 - [ ] Look into version control
-- [ ] Have two jobs for FF and Coffea running; each with different number of cores/threads:
-  - [ ] Test coffea with a single node and x amount of threads
+- [ ] Update the FF versions used at all the sites; have their versions match
 
 ## BNL
 
 - [ ] Update the FF code so that it matches what is being used at SLAC
-- [ ] Fix the parsing script used by the coffea job
-- [ ] update the parsing script to include the changes Ilija suggested; I just need to make sure the json docs contain "token" and "kind"; send them one by one
 
 ## SLAC
 
-- [ ] Fix the parsing script used by the coffea job
-- [X] Fix the script that runs the parsing scripts; ssh iana "commands"
-- [ ] Figure out what is causing the EVNT-EL9 Error
 
 ## UC
 
 - [ ] Parse Ntuple -> Hist log files and compare both FF and Coffea
 - [ ] Update the FF code so that it matches what is being used at SLAC
-- [ ] Fix the parsing script used by the coffea job
-- [X] Update the error handling in the parsing scripts for EVNT
 
 ## NERSC
 
 - [ ] Update the FF code so that it matches what is being used at SLAC
-- [ ] Fix the parsing script used by the coffea job
 
 ## Site
 
-- [ ] Add a legend to the flowchart -- red is scripts and blue is data formats
+- [ ] Document the structure of the benchmarking job; do so for all sites; batch and interactive container jobs; documenting the parsing script as well; it should help people navigate the GitHub page; explain where the cron files are deployed at the various sites; basically explain everything I've done over the past year
+- [ ] Call out where the user would go for an interactive set up for the environment and whatnot
 
 
 # Dumps
+
+[Dump - PYAR](Dump - PYAR.md)
+
 [Dump - mkdocs](Dump - mkdocs.md)
 
 [Dump - Meetings](Dump - Meetings.md)
 
+[Dump - Updates on Kibana](Dump - Updates on Kibana.md)
+
 # Projects
+
 [Project - Coffea Framework Ntuple to Hist](Project - Coffea Framework Ntuple to Hist.md)
 
 [Project - FF Framework Ntuple to Hist](Project - FF Framework Ntuple to Hist.md)
@@ -57,10 +62,8 @@ TODO:
 
 # Ideas
 
-- Schedule the parsing script at BNL: /atlasgpfs01/usatlas/data/jroblesgo/parsing_jobs/
+- Email grad advisors and figure out if there will be openings for different programs and their application cycles *TOP* ask about *TA*
 
 DONE:
 
 [Completed Tasks](Completed Tasks.md)
-
-
